@@ -5,3 +5,9 @@ balance: BigInt!
 date: Date!
 blockHeight: Int!
 }
+
+type SumReward @entity{
+id: ID! # AccountId
+totalReward: BigInt!
+blockheight: Int!
+}
